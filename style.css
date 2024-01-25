@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@media only screen and (min-width:400px) and (max-width:600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+        background-color: #F9F8FE;
+    }
+
+    .container {
+        padding: 20px;
+        
+        
+    }
+    .container-1 {
+        display:flex;
+        justify-content:space-between;
+        
+    }
+    .logo {
+        display:flex;
+        
+        
+    }
+    .title {
+        color:#C92071;
+        font-weight: 600;
+        margin-left: 5px;
+    }
+
+    .search {
+        align-items: center;
+        
+    }
+
+    .cart {
+        width: 23%;
+    }
+
+    /* form */
+
+    .title-compra {
+        padding-left: 21px;
+        margin-top: 30px;
+        font-weight: 700;
+    }
+
+    .form {
+        margin:30px;
+        
+    }
+
+    .form-titulo {
+        font-size:14px;
+    }
+
+    .form p {
+        font-size: 12px;
+    }
+
+    .form input {
+        border:none;
+        width: 255px;
+        height: 60px; 
+        border-radius: 8px;
+        background:rgba(71, 71, 71, 0.04);
+        
+    }
+
+    
+    ::placeholder {
+        color:#666;
+        opacity: 0.6;
+        font-size: 16px;
+        padding-left: 12px;
+        
+    }
+    .tipo-pag {
+        display: flex;
+        align-items: center;
+        
+    }
+    .tipo-pag input {
+        width: 20px;
+    }
+
+    .tipo-pag p {
+        padding-left: 6px;
+    }
+    .resumo {
+        display: flex;
+        padding: 10px;
+    }
+    .valor-resumo{
+        display: flex;
+    }
+}
+    
